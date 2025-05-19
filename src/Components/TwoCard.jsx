@@ -5,7 +5,7 @@ import {
 } from "../StyledComponents/HomePageStyledComponents";
 import BigText from "./BigText";
 import SubHeading from "./SubHeading";
-import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export default function TwoCard() {
   return (

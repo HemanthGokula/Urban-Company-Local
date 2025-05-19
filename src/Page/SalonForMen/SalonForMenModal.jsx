@@ -20,7 +20,7 @@ import { useSelector } from "react-redux";
 // rm -rf node_modules && npm install
 // npm update
 
-export default function AcServiceAndRepairModal() {
+export default function SalonForMenModal() {
   const [showDetails, setShowDetails] = useState(false);
 
   const [count, setCount] = useState(0);

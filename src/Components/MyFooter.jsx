@@ -1,12 +1,12 @@
 import React from "react";
 import { StyledFooter } from "../StyledComponents/HomePageStyledComponents";
 import SubHeading from "./SubHeading";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import PinterestIcon from "@material-ui/icons/Pinterest";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const footerLinks = [
   {

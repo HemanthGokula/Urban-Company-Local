@@ -3,12 +3,12 @@ import {
   ShowLocation,
   StyledInput,
 } from "../StyledComponents/HomePageStyledComponents";
-import SearchIcon from "@material-ui/icons/Search";
+import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
-import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
-import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
 import axios from "axios";
-import ClearIcon from "@material-ui/icons/Clear";
+import ClearIcon from "@mui/icons-material/Clear";
 import Suggestion from "./Suggestion";
 
 const initAddress = {

@@ -1,5 +1,6 @@
-import firebase from "firebase/app";
-import "firebase/auth";
+//HG: updating firebase as using V9 from package dep upgrade
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCtNIVpNeYv5XMbeYZ79cjW9raxIrxIn4Q",
@@ -11,5 +12,6 @@ const firebaseConfig = {
   measurementId: "G-5ZMZ7QPG5S",
 };
 
-firebase.initializeApp(firebaseConfig);
-export default firebase;
+const firebaseApp = initializeApp(firebaseConfig);
+export const auth = getAuth(firebaseApp);
+export default firebaseApp;

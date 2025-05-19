@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ClearIcon from "@material-ui/icons/Clear";
+import ClearIcon from "@mui/icons-material/Clear";
 import styled from "styled-components";
-import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import firebase from "../utils/firebase";
 import { useDispatch, useSelector } from "react-redux";
 import { userLogin } from "../Redux/auth/action";
